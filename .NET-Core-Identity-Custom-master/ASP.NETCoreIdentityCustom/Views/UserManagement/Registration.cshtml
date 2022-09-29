@@ -1,0 +1,62 @@
+﻿
+<link rel="stylesheet" href="~/css/Registration.css" />
+<script type="text/javascript" src="~/js/Registration.js"></script>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-offset-3 col-md-offset-4 col-lg-offset-4 col-xs-12 col-sm-6 col-md-4 col-lg-4" id="userForm">
+            <form id="CNAForm" novalidate class="needs-validation">
+                <center><h4><i class="fa fa-users"></i> Create New Account</h4><hr /></center>
+                <div class="form-group">
+                    <span>First Name:</span><br />
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                        <input id="TxtFName" type="text" placeholder="Enter First Name Here.." maxlength="20" class="form-control" />
+                    </div>
+                    <small id="TxtFNameValidate" class="text-danger"></small>
+                </div>
+                <div class="form-group">
+                    <span>Last Name:</span><br />
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                        <input id="TxtLName" type="text" placeholder="Enter Last Name Here.." maxlength="20" class="form-control" />
+                    </div>
+                    <small id="TxtLNameValidate" class="text-danger"></small>
+                </div>
+
+                <div class="form-group">
+                    <span>Email Id:</span><br />
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                        <input id="Email" type="text" placeholder="Enter Email Id Here.." maxlength="50" class="form-control" />
+                    </div>
+                    <small id="TxtEmailIdValidate" class="text-danger"></small>
+                </div>
+                <div class="form-group">
+                    <span>Password:</span><br />
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                        <input id="TxtPassword" type="password" placeholder="Enter Password Here.." maxlength="15" class="form-control" />
+                    </div>
+                    <small id="TxtPasswordValidate" class="text-danger"></small>
+                </div>
+                <div class="form-group">
+                    <span>User Role</span><br />
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-male"></i></span>
+                        <select id="DDL_Role" class="form-control">
+                            <option value='A'>Admin</option>
+                            <option value='U'>User</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <a class="btn btn-danger" id="BtnSignUp"><i class="fa fa-user-plus" style="color:#FFFFFF;"></i> Create New Account</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
